@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZWDTools (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZWDTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZWDTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZWDTools: c7f2b9347c7ddd8f78ab5eadcf399d564a261ab6
+
+PODFILE CHECKSUM: 6524cddbc08eb5640b2b84967e30358c66ec3afb
+
+COCOAPODS: 1.9.3
